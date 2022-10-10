@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.patikadev.View.QuizGui">
+  <grid id="27dc6" binding="wrapper" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="4b27a" class="javax.swing.JLabel" binding="lbl_quiz_title">
+        <constraints border-constraint="North"/>
+        <properties>
+          <text value="Quiz List"/>
+        </properties>
+      </component>
+      <scrollpane id="32340" binding="scrl_quiz">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="8a32" class="javax.swing.JTable" binding="tbl_quiz_list">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
